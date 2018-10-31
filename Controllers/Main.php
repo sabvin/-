@@ -16,8 +16,6 @@ class Main
 	 */
 	public function getContent()
 	{
-		$modelMainObj = new \Models\Main;
-		$routes = $modelMainObj->getBlogEntry();
 		
 		require_once(DIR_ROOT . '/views/index.php');
 		

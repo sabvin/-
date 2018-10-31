@@ -67,4 +67,14 @@ class Post
 		
 		return $result ?? false;
 	}
+	
+	public static function insertPost(string $postText, string $postName)
+	{
+		//это я сделать не успел
+	}
+	
+	public static function deletePost(int $postId)
+	{
+		//это тоже не успел
+	}
 }
